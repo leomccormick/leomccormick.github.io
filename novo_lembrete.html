@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo lembrete</title>
+    <link rel="icon" href="imagens/icon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main class="sem-footer">
+        <h1 class="smaller-h1">Definir novo lembrete</h1>
+        <form action="lembretes.html" class="coluna" id="form-lembrete">
+            <input type="time" id="horario" name="horario">
+            <ul class="coluna center days-list">
+                <li class="selected-day">Domingo</li>
+                <li class="non-selected-day">Segunda</li>
+                <li class="non-selected-day">Terça</li>
+                <li class="non-selected-day">Quarta</li>
+                <li class="non-selected-day">Quinta</li>
+                <li class="non-selected-day">Sexta</li>
+                <li class="selected-day">Sábado</li>
+            </ul>
+            <input class="concluir-novo-lembrete azul" type="submit" value="Concluir">
+        </form>
+    </main>
+
+    <script src="js/novo_lembrete.js"></script>
+</body>
+
+</html>
